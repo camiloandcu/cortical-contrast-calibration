@@ -59,6 +59,14 @@ válidos; 30 archivos públicos revisados, sin datos individuales, copias de
 fuentes ni credenciales detectadas por las comprobaciones. La comprobación
 automática de patrones no sustituye revisión del contenido publicado.
 
-Pendiente al preparar el commit inicial: verificar clon limpio y publicar
-mediante `gh`. Registrar URL y resultado después de la operación. `main` no se
-crea ni actualiza sin autorización explícita.
+Commit inicial local: `453596c` en `setup/public-repository`. Clon limpio
+verificado sin datos locales ni dependencias externas; controles negativos
+rechazan enlace roto y derivado excluido añadido al índice.
+
+Publicación **pendiente de confirmación explícita**: el guard personal
+`publishing` bloqueó antes de ejecutar `gh repo create ... --public ... --push`.
+No se creó el remoto ni se subió contenido. Acción preparada: crear
+`camiloandcu/neuroco-2026-2` público y subir únicamente `setup/public-repository`.
+Reversión posible: hacerlo privado o eliminarlo, sin retirar copias ajenas.
+No reintentar bajo otra forma; esperar confirmación. `main` no se crea ni
+actualiza sin autorización explícita.
