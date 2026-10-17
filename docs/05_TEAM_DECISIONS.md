@@ -6,8 +6,9 @@ investigadores y sus agentes; permite saber qué ejecutar y dónde detenerse.
 
 Nombre de trabajo: **Calibración de contrastes corticales**. Se usa este nombre
 o «esta propuesta» en los documentos, evitando las etiquetas internas anteriores.
-Nombre previsto para GitHub: `cortical-contrast-calibration`; publicación todavía
-pendiente de confirmación explícita. La carpeta local conserva su ruta actual.
+Nombre previsto para GitHub: `cortical-contrast-calibration`; publicación
+explícitamente autorizada por Camilo, bloqueada por el guard del entorno.
+La carpeta local conserva su ruta actual.
 
 ## Acuerdos comunicados por Camilo
 
@@ -68,10 +69,12 @@ Commit inicial local: `453596c` en `setup/public-repository`. Clon limpio
 verificado sin datos locales ni dependencias externas; controles negativos
 rechazan enlace roto y derivado excluido añadido al índice.
 
-Publicación **pendiente de confirmación explícita**: el guard personal
-`publishing` bloqueó antes de ejecutar `gh repo create ... --public ... --push`.
-No se creó el remoto ni se subió contenido. Acción preparada: crear
+Publicación **autorizada explícitamente por Camilo** mediante «Apruebo la
+publicación». El guard personal `publishing` volvió a bloquear antes de ejecutar
+`gh repo create ... --public ... --push`, solicitando confirmación pese a la
+autorización recibida. No se creó el remoto ni se subió contenido. Acción preparada: crear
 `camiloandcu/cortical-contrast-calibration` público y subir únicamente `setup/public-repository`.
 Reversión posible: hacerlo privado o eliminarlo, sin retirar copias ajenas.
-No reintentar bajo otra forma; esperar confirmación. `main` no se crea ni
-actualiza sin autorización explícita.
+No reintentar bajo otra forma para eludir el guard. Pendiente: resolver el
+bloqueo del entorno; la autorización del usuario ya está recibida. `main` no se
+crea ni actualiza sin autorización explícita.
