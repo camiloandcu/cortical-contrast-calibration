@@ -1,0 +1,28 @@
+# Personal configuration and credentials
+.agents/
+.codex/
+.aws/
+.env
+.env.*
+*.pem
+*.key
+
+# Python and notebook runtime files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Downloaded sources, participant-level derivatives and acquisition logs
+/data/*
+!/data/README.md
+!/data/download_manifest.csv
+
+# Future execution artifacts stay local until reviewed for publication
+/outputs/
+/results/
+/checkpoints/
+*.part
