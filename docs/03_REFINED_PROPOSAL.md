@@ -1,4 +1,4 @@
-# P5-R: elegibilidad y calibración de interacciones corticales después de armonizar
+# Propuesta: elegibilidad y calibración de contrastes corticales
 
 **Protocolo propuesto para revisión del equipo — 2026-10-11.** Destinatarios: las tres personas que decidirán objetivo, alcance y ejecución. No contiene resultados de modelos o simulaciones. **V** = verificado localmente; **F** = fuente primaria; **I** = decisión metodológica propuesta; **U** = pendiente. Las decisiones que siguen son **I**, salvo indicación expresa.
 
@@ -14,7 +14,7 @@ la especificación científica propuesta, sin resultados nuevos.
 
 **Pregunta principal:** para un contraste de interacción definido antes de examinar efectos y condicionado a las covariables y sitios observados, ¿qué relación existe entre soporte del diseño, especificación de la media y cobertura de los intervalos después de armonizar, incluso cuando las estimaciones puntuales coinciden con un ajuste de una etapa?
 
-El [comité independiente](review/02_PEER_REVIEW.md) admite **únicamente P5-R**, con factibilidad **4/5**, publicabilidad **3/5**, innovación **3/5** y ponderado **3,50/5**. La fórmula es `0,50F + 0,30P + 0,20I`; cada criterio debe alcanzar 3 y ninguna debilidad fatal se compensa por la media. El P5 genérico, centrado en «proteger interacciones y comparar significancia», falla publicabilidad e innovación. Este pase autoriza redactar una propuesta, no demuestra novedad, potencia ni probabilidad de aceptación.
+El [comité independiente](review/02_PEER_REVIEW.md) admite **únicamente la propuesta revisada**, con factibilidad **4/5**, publicabilidad **3/5**, innovación **3/5** y ponderado **3,50/5**. La fórmula es `0,50F + 0,30P + 0,20I`; cada criterio debe alcanzar 3 y ninguna debilidad fatal se compensa por la media. El planteamiento inicial, centrado en «proteger interacciones y comparar significancia», falla publicabilidad e innovación. Este pase autoriza redactar una propuesta, no demuestra novedad, potencia ni probabilidad de aceptación.
 
 **Meta acordada para una reevaluación posterior — 2026-10-12:** mantener el alcance actual y aspirar a factibilidad **4/5**, publicabilidad **4/5** e innovación **4/5** (ponderado **4,00/5**) si el piloto demuestra una contribución útil. Las notas actuales siguen siendo **4/3/3**. La meta requiere ejecución técnicamente viable dentro del presupuesto, conclusiones precisas que orienten una decisión analítica y utilidad de los diagnósticos en escenarios reservados, además de una diferencia defendible respecto de los antecedentes. Una revisión posterior deberá valorar esa evidencia; ejecutar el piloto o completar el protocolo no aumenta automáticamente las notas. Este acuerdo no autoriza ejecutar modelos ni simulaciones.
 
@@ -24,7 +24,7 @@ El producto científico será un **mapa reproducible diseño → elegibilidad �
 
 No se propone un algoritmo nuevo. Interacciones, ComBat, incertidumbre de dos etapas y desbalance por sexo ya tienen antecedentes. El valor candidato consiste en vincular diagnósticos previos al análisis de efectos con el rendimiento de **un mismo contraste y población**, y comprobar esa relación en condiciones no utilizadas para elegir una regla. La [búsqueda dirigida](../literature/README.md) no demuestra originalidad exclusiva.
 
-| Antecedente primario | Qué evita reclamar P5-R | Diferencia candidata que debe sobrevivir al piloto |
+| Antecedente primario | Qué evita reclamar la propuesta revisada | Diferencia candidata que debe sobrevivir al piloto |
 |---|---|---|
 | [Sun, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9648725/) | Primera comparación cortical de interacciones entre armonizaciones | Verdad generada, elegibilidad y cobertura del contraste triple |
 | [Reynolds, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10412957/) | Primera simulación de interacciones o incertidumbre ComBat | Relación soporte de cuatro grupos → calibración y decisión; [texto y suplemento ya inspeccionados](review/04_COMPETITOR_VERIFICATION.md) |
@@ -32,7 +32,7 @@ No se propone un algoritmo nuevo. Interacciones, ComBat, incertidumbre de dos et
 | [Li, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10449015/) y [Nygaard, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4679072/) | Descubrimiento de dependencia o confianza excesiva de dos etapas | Cuantificación orientada a un contraste cortical y diagnóstico de elegibilidad |
 | [Bayer, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC7614761/) | Primera comparación ABIDE de una frente a dos etapas | Contrastes de media en vez de puntuaciones normativas individuales |
 
-**Motivación biológica F:** [Andrews, 2024](https://www.nature.com/articles/s41380-024-02592-8) estudió edad × sexo × diagnóstico con MRI longitudinales de otra cohorte y procesamiento. Esto justifica la relevancia de la pregunta; ABIDE transversal no replica cambios intraindividuales. P5-R no estudia poda sináptica, pubertad ni mecanismos causales.
+**Motivación biológica F:** [Andrews, 2024](https://www.nature.com/articles/s41380-024-02592-8) estudió edad × sexo × diagnóstico con MRI longitudinales de otra cohorte y procesamiento. Esto justifica la relevancia de la pregunta; ABIDE transversal no replica cambios intraindividuales. Esta propuesta no estudia poda sináptica, pubertad ni mecanismos causales.
 
 ## 2. Datos, unidad y población
 

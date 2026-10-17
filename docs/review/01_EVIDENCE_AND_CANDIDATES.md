@@ -1,4 +1,4 @@
-# P5 — Evidencia y candidato para revisión de pares
+# Evidencia y candidato para revisión de pares
 
 Fecha: **2026-10-11**. Primer dictamen del comité: revisión de literatura, datos y capacidades. Destinatarios: revisor estadístico/metodológico y equipo de tres personas. Finalidad: decidir si la contribución merece un protocolo; no presenta resultados de investigación ni aprueba ejecución.
 
@@ -33,7 +33,7 @@ Evidencia reproducible: [resumen por grupo](../../literature/abide_design_group_
 
 ## 2. Antecedentes que impiden una reivindicación genérica de novedad
 
-| Fuente primaria | Componente ya estudiado | Diferencia que tendría que justificar P5 |
+| Fuente primaria | Componente ya estudiado | Diferencia que tendría que justificar esta propuesta |
 |---|---|---|
 | [Fortin, 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC5845848/); [Pomponio, 2020](https://pubmed.ncbi.nlm.nih.gov/31821869/) | ComBat cortical y extensión no lineal, respectivamente | Una curva de edad protegida o usar otro paquete no es innovación |
 | [Sun, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9648725/) | Comparación empírica de grosor con LME, ComBat y ComBat-GAM; interacciones edad×diagnóstico y sexo×diagnóstico en PTSD | Recuperación de un estimando conocido; separar error de ajuste final y de armonización |
@@ -47,7 +47,7 @@ Evidencia reproducible: [resumen por grupo](../../literature/abide_design_group_
 
 **F** Las capacidades de interacción ya existen: [ComBatFamily](https://github.com/andy1764/ComBatFamily) acepta modelos y fórmulas; el [manual primario ComBatFamQC](https://stat.ethz.ch/CRAN/web/packages/ComBatFamQC/ComBatFamQC.pdf) documenta interacciones lineales y factor-smooth. Crear una matriz de diseño con interacciones es una configuración verificable, **no un algoritmo nuevo**. `smooth_terms=['AGE']` de [neuroHarmonize](https://github.com/rpomponio/neuroHarmonize) no crea automáticamente curvas diferentes para sexo×diagnóstico. El código maestro inspeccionado utiliza bases cúbicas de edad con `df=10`: no suponer que esa complejidad cabe en la celda femenina escasa. Versiones concretas no se han ejecutado. **F/U**
 
-**Motivación biológica, no resultado de P5:** [Andrews, 2024](https://www.nature.com/articles/s41380-024-02592-8) estudió la interacción edad×sexo×diagnóstico con 918 MRI longitudinales de infancia, incluyendo 88 niñas autistas. [Bedford, 2020](https://www.nature.com/articles/s41380-019-0420-6) ya evaluó heterogeneidad cortical asociada a sexo, edad e inteligencia. Estas preguntas son biológicamente relevantes; ABIDE I transversal no permite estimar trayectorias intraindividuales ni atribuir diferencias a poda sináptica. **F/I**
+**Motivación biológica, no resultado de esta propuesta:** [Andrews, 2024](https://www.nature.com/articles/s41380-024-02592-8) estudió la interacción edad×sexo×diagnóstico con 918 MRI longitudinales de infancia, incluyendo 88 niñas autistas. [Bedford, 2020](https://www.nature.com/articles/s41380-019-0420-6) ya evaluó heterogeneidad cortical asociada a sexo, edad e inteligencia. Estas preguntas son biológicamente relevantes; ABIDE I transversal no permite estimar trayectorias intraindividuales ni atribuir diferencias a poda sináptica. **F/I**
 
 ## 3. Único candidato preferido — recuperación y calibración en soporte común
 

@@ -1,6 +1,6 @@
-# Neuroco 2026-2
+# Calibración de contrastes corticales
 
-P5-R studies interaction estimability and uncertainty after multicenter
+This project studies interaction estimability and uncertainty after multicenter
 cortical-thickness harmonization, calibrated to the observed ABIDE I design.
 This file is portable: no personal skills, agent profiles or private setup are
 required. Reply in the user's language; use English file conventions and agent
@@ -9,7 +9,7 @@ instructions. Do not assume decisions from earlier conversations.
 ## Authoritative context
 
 - Reading order and evidence: `docs/00_INDEX.md`, `literature/README.md`.
-- Scientific design: `docs/03_REFINED_P5_PROPOSAL.md`.
+- Scientific design: `docs/03_REFINED_PROPOSAL.md`.
 - Independent review and response: `docs/review/02_PEER_REVIEW.md`,
   `docs/review/03_REVISION_RESPONSE.md`.
 - Targeted competitor verification: `docs/review/04_COMPETITOR_VERIFICATION.md`.

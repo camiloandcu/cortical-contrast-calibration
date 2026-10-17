@@ -1,10 +1,10 @@
-# P5 — paquete de revisión y propuesta
+# Índice de revisión y propuesta
 
 Comprobación: 2026-10-11. Destinatarios: Camilo y dos personas revisoras. Objetivo: decidir si una contribución metodológica delimitada es factible, innovadora y defendible para publicación.
 
-El comité rechaza el P5 genérico. La reformulación P5-R pasa a propuesta: factibilidad **4/5**, publicabilidad **3/5**, innovación **3/5**, ponderado **3,50/5**. El pase es condicional a controles y piloto; no acredita novedad definitiva ni resultados.
+El comité rechaza el planteamiento inicial. El diseño revisado pasa a propuesta: factibilidad **4/5**, publicabilidad **3/5**, innovación **3/5**, ponderado **3,50/5**. El pase es condicional a controles y piloto; no acredita novedad definitiva ni resultados.
 
-Acuerdo del 2026-10-12: mantener el alcance y fijar **4/4/4** como meta de reevaluación si el piloto demuestra viabilidad, utilidad y aporte adicional. Las notas actuales siguen en **4/3/3**; [condiciones detalladas en la propuesta](03_REFINED_P5_PROPOSAL.md).
+Acuerdo del 2026-10-12: mantener el alcance y fijar **4/4/4** como meta de reevaluación si el piloto demuestra viabilidad, utilidad y aporte adicional. Las notas actuales siguen en **4/3/3**; [condiciones detalladas en la propuesta](03_REFINED_PROPOSAL.md).
 
 ## Orden de lectura
 
@@ -15,7 +15,7 @@ mencionados como rutas se reconstruyen localmente; no forman parte del repo.
 
 1. [Evidencia y candidatos](review/01_EVIDENCE_AND_CANDIDATES.md): antecedentes cercanos, aporte posible y qué respaldan los datos.
 2. [Comité de revisión de pares](review/02_PEER_REVIEW.md): críticas, puntuación por criterio y condiciones para continuar.
-3. [Propuesta P5 refinada](03_REFINED_P5_PROPOSAL.md): pregunta, estimando, diseño, validación y límites.
+3. [Propuesta refinada](03_REFINED_PROPOSAL.md): pregunta, estimando, diseño, validación y límites.
 4. [Respuesta a las revisiones](review/03_REVISION_RESPONSE.md): cambios concretos y críticas todavía abiertas.
 5. [Comprobación adicional del antecedente y suplemento](review/04_COMPETITOR_VERIFICATION.md).
 6. [Ficha de los datasets y hoja para tres personas](01_DATASET_REVIEW.md): grupos, variables y decisiones compartidas.

@@ -1,4 +1,4 @@
-# P5-R: comprobación del antecedente decisivo
+# Comprobación del antecedente decisivo
 
 Fecha: 2026-10-11. Comprobación adicional del agente principal, posterior al dictamen independiente. Resuelve el obstáculo de acceso a Reynolds; no equivale a una búsqueda sistemática ni aumenta las puntuaciones del comité.
 
@@ -17,7 +17,7 @@ Copias originales locales en `data/sources/`, con tamaños y SHA-256 en [el mani
 
 **Inferencia de revisión:** esto impide reivindicar simulación, recuperación de interacciones o incertidumbre como aportaciones nuevas por sí solas. En el texto y suplemento inspeccionados no se identificó la misma evaluación conjunta de elegibilidad de cuatro grupos, contraste condicionado `Θ`, equivalencia puntual y cobertura frente a una etapa. Es una diferencia candidata delimitada, no evidencia de que esa unidad de contribución sea inédita en toda la literatura.
 
-| Componente de P5-R | Estado tras inspección |
+| Componente de la propuesta revisada | Estado tras inspección |
 |---|---|
 | Simulación de interacción y evaluación de error | Antecedente cercano confirmado; no reclamar novedad |
 | Incertidumbre después de armonizar | Antecedente confirmado; un bootstrap tampoco es innovación automática |
@@ -28,4 +28,4 @@ Copias originales locales en `data/sources/`, con tamaños y SHA-256 en [el mani
 
 La lectura dirigida de Reynolds y su suplemento está **completada**. El dictamen registraba esa lectura como pendiente porque el acceso directo había fallado. Su condición de veto se mantiene: si otra fuente ya cubre la misma decisión, reevaluar innovación; si el piloto reproduce únicamente consecuencias conocidas, detener la aspiración de artículo. No se inspeccionaron por este procedimiento todos los suplementos de los demás competidores.
 
-No se ejecutó el código del artículo ni se reprodujeron resultados. La implementación y la validez del protocolo P5-R siguen pendientes de aprobación y evaluación. [Dictamen original](02_PEER_REVIEW.md) y [respuesta a revisión](03_REVISION_RESPONSE.md).
+No se ejecutó el código del artículo ni se reprodujeron resultados. La implementación y la validez del protocolo de esta propuesta siguen pendientes de aprobación y evaluación. [Dictamen original](02_PEER_REVIEW.md) y [respuesta a revisión](03_REVISION_RESPONSE.md).

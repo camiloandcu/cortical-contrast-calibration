@@ -4,13 +4,18 @@ Registro: 2026-10-17. Las decisiones comunicadas por Camilo se distinguen de
 la aprobación conjunta del protocolo por las tres personas. Consumidores:
 investigadores y sus agentes; permite saber qué ejecutar y dónde detenerse.
 
+Nombre de trabajo: **Calibración de contrastes corticales**. Se usa este nombre
+o «esta propuesta» en los documentos, evitando las etiquetas internas anteriores.
+Nombre previsto para GitHub: `cortical-contrast-calibration`; publicación todavía
+pendiente de confirmación explícita. La carpeta local conserva su ruta actual.
+
 ## Acuerdos comunicados por Camilo
 
 | Tema | Acuerdo | Consecuencia observable |
 |---|---|---|
 | Repositorio | Público; operar GitHub mediante `gh` | Acceso de lectura sin cuenta; escritura requiere colaboradores o fork/PR |
 | Datos | Código, documentos, manifiesto y agregados; reconstrucción local de datos individuales | Un clon limpio no contiene fenotipos, medidas individuales ni copias de artículos |
-| Objetivo | Mantener Θ y estandarización de P5-R en simulación | No simplificar la pregunta según significancia |
+| Objetivo | Mantener Θ y estandarización de la propuesta revisada en simulación | No simplificar la pregunta según significancia |
 | Alcance | ABIDE I; sin ABIDE II ni reprocesamiento en el núcleo | No añadir dependencias de datos externos |
 | Elegibilidad | Auditar configuraciones propuestas mediante covariables antes de fijar regla | No elegir umbrales mirando grosores, efectos o rendimiento simulado |
 | Comparadores | Mantener E1 GLS, H0/H1 ComBat e incertidumbre de todo el procedimiento | Misma población, modelo final y 68 regiones EB |
@@ -66,7 +71,7 @@ rechazan enlace roto y derivado excluido añadido al índice.
 Publicación **pendiente de confirmación explícita**: el guard personal
 `publishing` bloqueó antes de ejecutar `gh repo create ... --public ... --push`.
 No se creó el remoto ni se subió contenido. Acción preparada: crear
-`camiloandcu/neuroco-2026-2` público y subir únicamente `setup/public-repository`.
+`camiloandcu/cortical-contrast-calibration` público y subir únicamente `setup/public-repository`.
 Reversión posible: hacerlo privado o eliminarlo, sin retirar copias ajenas.
 No reintentar bajo otra forma; esperar confirmación. `main` no se crea ni
 actualiza sin autorización explícita.

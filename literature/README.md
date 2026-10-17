@@ -1,10 +1,10 @@
-# Índice de evidencia para P5
+# Índice de evidencia de la propuesta
 
 Comprobación: **2026-10-11**. Decisión que apoya: determinar si una evaluación de recuperación y calibración de interacciones de grosor cortical en un diseño multicéntrico desbalanceado merece desarrollo. Población: personas autistas y controles; modalidad: T1/grosor cortical regional; dataset de trabajo: ABIDE I PCP. Esta es una revisión dirigida, no una búsqueda sistemática exhaustiva.
 
 ## Archivos y convenciones
 
-- `papers.csv`: fuentes primarias, DOI, pregunta, población/modalidad, métodos, resultados documentados, limitaciones y relación con P5. `verification_level` distingue texto completo abierto, resumen/ficha y texto primario indexado cuya apertura falló. Un hallazgo indexado no verifica los suplementos.
+- `papers.csv`: fuentes primarias, DOI, pregunta, población/modalidad, métodos, resultados documentados, limitaciones y relación con esta propuesta. `verification_level` distingue texto completo abierto, resumen/ficha y texto primario indexado cuya apertura falló. Un hallazgo indexado no verifica los suplementos.
 - `datasets.csv`: acceso, campos/grupos y tamaños observados o documentados. ABIDE II es opcional y no inspeccionado; no se suman cohortes.
 - `software.csv`: capacidades comprobadas en documentación/código primarios; ningún paquete se instaló ni ejecutó en esta revisión.
 - `abide_design_group_summary.csv`, `abide_design_site_groups.csv`, `abide_design_age_cells.csv`, `abide_design_support.csv`: conteos descriptivos; reproducir con `python3 literature/audit_design_coverage.py` desde la raíz.
@@ -20,7 +20,7 @@ Consultas dirigidas utilizadas (se conserva la redacción de las familias de con
 
 | Área | Consultas |
 |---|---|
-| Núcleo P5 | `ComBat harmonization nonlinear interactions age sex diagnosis ABIDE cortical thickness 2024 2025 2026`; `ComBat-GAM interactions sex diagnosis simulation`; `ComBat-GAM interaction simulation ABIDE` |
+| Núcleo metodológico | `ComBat harmonization nonlinear interactions age sex diagnosis ABIDE cortical thickness 2024 2025 2026`; `ComBat-GAM interactions sex diagnosis simulation`; `ComBat-GAM interaction simulation ABIDE` |
 | ABIDE y población | `ABIDE cortical thickness sex age 2024 2025 2026 harmonization`; `autism cortical thickness age sex interaction ABIDE females 2025 2024`; `Large-scale analyses 31028290 autism morphometry`; `Normative age modelling of cortical thickness in autistic males` |
 | Antecedentes cercanos | `Bayer 2022 harmonization site effects biological variability ComBat NeuroImage 36272672`; `Sun 2022 ABIDE cortical thickness harmonization sex age 35917919`; `ComBatLS location scale preserving harmonization DOI Human Brain Mapping 2025`; `ComBat Harmonization: Empirical Bayes versus fully Bayes approaches DOI` |
 | Inferencia/calibración | `ComBat GAM confidence intervals coverage inference simulation harmonization misspecification`; `harmonization ComBat interactions confounding type I error uncertainty cortical thickness sex diagnosis simulation`; `ComBat harmonization confidence interval bootstrap two stage type I error 2024 2025 2026`; `ComBat harmonization interaction effects false positives covariance induced 2024 2025`; `Methods that remove batch effects Nygaard full text` |

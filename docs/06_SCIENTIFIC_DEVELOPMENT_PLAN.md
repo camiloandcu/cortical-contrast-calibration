@@ -1,7 +1,7 @@
 # Plan operativo científico — propuesta para revisión conjunta
 
 Estado: **borrador; no autoriza ejecución científica**. Complementa el
-[protocolo](03_REFINED_P5_PROPOSAL.md), sin reemplazar sus fórmulas, escenarios
+[protocolo](03_REFINED_PROPOSAL.md), sin reemplazar sus fórmulas, escenarios
 o reglas. Los [acuerdos y pendientes](05_TEAM_DECISIONS.md) distinguen decisiones
 comunicadas por Camilo de aprobación conjunta. Las tres personas revisan todo.
 

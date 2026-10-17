@@ -1,10 +1,10 @@
-# P5-R — Respuesta a la revisión y evidencia pendiente
+# Respuesta a la revisión y evidencia pendiente
 
-Fecha: **2026-10-11**. Destinatarios: equipo de tres personas y revisor del protocolo. Basada en el [dictamen independiente](02_PEER_REVIEW.md), después de la [revisión de evidencia](01_EVIDENCE_AND_CANDIDATES.md). La [propuesta](../03_REFINED_P5_PROPOSAL.md) incorpora cambios **de diseño**; no afirma que hayan sido implementados, simulados o validados.
+Fecha: **2026-10-11**. Destinatarios: equipo de tres personas y revisor del protocolo. Basada en el [dictamen independiente](02_PEER_REVIEW.md), después de la [revisión de evidencia](01_EVIDENCE_AND_CANDIDATES.md). La [propuesta](../03_REFINED_PROPOSAL.md) incorpora cambios **de diseño**; no afirma que hayan sido implementados, simulados o validados.
 
-**Versión admitida:** P5-R, factibilidad 4/5, publicabilidad 3/5, innovación 3/5; ponderado 3,50/5. La formulación genérica no pasa. Estos juicios habilitan un protocolo falsable y pueden bajar ante un antecedente decisivo o un piloto sin aporte útil. Una puntuación global no compensa un criterio inferior a 3.
+**Versión admitida:** la propuesta revisada, factibilidad 4/5, publicabilidad 3/5, innovación 3/5; ponderado 3,50/5. La formulación genérica no pasa. Estos juicios habilitan un protocolo falsable y pueden bajar ante un antecedente decisivo o un piloto sin aporte útil. Una puntuación global no compensa un criterio inferior a 3.
 
-**Acuerdo posterior — 2026-10-12:** conservar el alcance de P5-R. La meta de reevaluación es **4/4/4**, ponderado **4,00/5**, condicionada a viabilidad técnica/coste comprobados, utilidad analítica precisa y validación en escenarios reservados con aporte adicional a los antecedentes. El dictamen actual permanece en **4/3/3**; la meta no es una puntuación obtenida ni aprobación de ejecución.
+**Acuerdo posterior — 2026-10-12:** conservar el alcance de la propuesta revisada. La meta de reevaluación es **4/4/4**, ponderado **4,00/5**, condicionada a viabilidad técnica/coste comprobados, utilidad analítica precisa y validación en escenarios reservados con aporte adicional a los antecedentes. El dictamen actual permanece en **4/3/3**; la meta no es una puntuación obtenida ni aprobación de ejecución.
 
 ## Respuesta a las nueve objeciones mayores
 
@@ -31,7 +31,7 @@ describe el estado científico previo a implementación, que no ha cambiado.
 | Puerta | Registro mínimo requerido | Regla de decisión | Estado actual |
 |---|---|---|---|
 | G1. Aprobación | Objetivo, pesos, modelos, escenarios, tolerancias y presupuesto aceptados por equipo | Sin aprobación no se implementa investigación | **Pendiente** |
-| G2. Competidor decisivo | [Texto y suplemento Reynolds inspeccionados](04_COMPETITOR_VERIFICATION.md) frente a misma decisión P5-R | No se identificó misma evaluación conjunta en esa fuente; otra coincidencia de aporte → reevaluar innovación | **Comprobación dirigida completada**; no todos los suplementos ni búsqueda exhaustiva |
+| G2. Competidor decisivo | [Texto y suplemento Reynolds inspeccionados](04_COMPETITOR_VERIFICATION.md) frente a la misma decisión metodológica de esta propuesta | No se identificó misma evaluación conjunta en esa fuente; otra coincidencia de aporte → reevaluar innovación | **Comprobación dirigida completada**; no todos los suplementos ni búsqueda exhaustiva |
 | G3. Elegibilidad | Covariables, soporte local, rango/condición/concentración, política de lotes y edades congeladas | Sin rango: no estimar; sin soporte: limitar rama empírica | **Parcial:** conteos descriptivos; diagnóstico completo pendiente |
 | G4. Control algebraico | Identidad OLS y tolerancia fijada; salida ejecutada | Diferencia inesperada: reparar antes de benchmark | **Diseñado, no ejecutado** |
 | G5. Núcleo de software | Versión/commit, fórmulas/columnas protegidas, recuperación y fallos | Capacidad no funcional: reparar, reducir o parar con cambio explícito | **Solo documentación comprobada** |

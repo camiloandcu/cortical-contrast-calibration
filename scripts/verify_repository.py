@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_DATA = {"data/README.md", "data/download_manifest.csv"}
 REQUIRED = {
     ".gitignore", "AGENTS.md", "README.md", *PUBLIC_DATA,
-    "docs/00_INDEX.md", "docs/03_REFINED_P5_PROPOSAL.md",
+    "docs/00_INDEX.md", "docs/03_REFINED_PROPOSAL.md",
     "docs/05_TEAM_DECISIONS.md", "docs/06_SCIENTIFIC_DEVELOPMENT_PLAN.md",
     "docs/07_COLLABORATION_GUIDE.md", "scripts/verify_repository.py",
 }

@@ -1,8 +1,8 @@
-# P5 — Dictamen independiente de revisión de pares
+# Dictamen independiente de revisión de pares
 
 Fecha: **2026-10-11**. Destinatarios: equipo de tres personas y responsable de redactar el protocolo. Es una evaluación asistida con tres perspectivas disciplinarias; no representa tres revisores humanos ni una revisión editorial real. Se realizó después de cerrar la etapa de evidencia y sin modificar su índice. No se ajustaron modelos ni se ejecutaron simulaciones.
 
-**Dictamen: pasa a elaboración de propuesta únicamente la versión revisada P5-R descrita aquí.** La comparación genérica de «proteger interacciones para recuperar señal» no pasa por innovación/publicabilidad insuficientes. P5-R estudia **calibración de intervalos y elegibilidad de un contraste de interacción condicionado al diseño**, incorpora un control de equivalencia algebraica y deja ABIDE como diseño de referencia y demostración empírica secundaria. El pase permite redactar el protocolo; no demuestra resultados, potencia, originalidad exclusiva ni probabilidad de aceptación.
+**Dictamen: pasa a elaboración de propuesta únicamente la versión revisada descrita aquí.** La comparación genérica de «proteger interacciones para recuperar señal» no pasa por innovación/publicabilidad insuficientes. Esta propuesta estudia **calibración de intervalos y elegibilidad de un contraste de interacción condicionado al diseño**, incorpora un control de equivalencia algebraica y deja ABIDE como diseño de referencia y demostración empírica secundaria. El pase permite redactar el protocolo; no demuestra resultados, potencia, originalidad exclusiva ni probabilidad de aceptación.
 
 Convenciones: **V** comprobación local; **F** fuente primaria; **I** juicio/propuesta; **U** pendiente. Base revisada: [candidato y evidencia](01_EVIDENCE_AND_CANDIDATES.md), [cobertura de búsqueda](../../literature/README.md), [artículos](../../literature/papers.csv), [datasets](../../literature/datasets.csv) y [software](../../literature/software.csv).
 
@@ -74,7 +74,7 @@ Separar núcleos con y sin efecto técnico y escenarios aditivos frente a locali
 
 La tabla contrasta objetivos, no reclama que cada suplemento haya sido descartado exhaustivamente.
 
-| Antecedente primario | Qué ya cubre | Qué podría aportar P5-R |
+| Antecedente primario | Qué ya cubre | Qué podría aportar la propuesta revisada |
 |---|---|---|
 | [Sun, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9648725/) | Comparación cortical empírica; edad×diagnóstico y sexo×diagnóstico | Cobertura de un contraste triple conocido en diseños de soporte variable, sin identificar verdad empírica |
 | [Reynolds, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10412957/) | Simulación ComBat, diagnóstico×edad e incertidumbre | Relación entre soporte de cuatro grupos, equivalencia puntual y calibración de un contraste definido; verificar suplementos antes del piloto |
@@ -90,7 +90,7 @@ Se reabrieron independientemente los textos de Li, Sun y ComBatLS. La apertura d
 
 Un resultado nulo puede ser publicable si delimita equivalencia y calibración con precisión suficiente y aporta un recurso reproducible útil. «Ningún método gana» con intervalos Monte Carlo grandes o controles triviales no satisface ese estándar. La novedad permanece condicionada a la búsqueda dirigida documentada hasta 2026-10-11; no se garantiza originalidad ni publicación. **I/U**
 
-## 5. Candidato revisado P5-R que sí se evalúa
+## 5. Candidato revisado que sí se evalúa
 
 **Pregunta revisada:** para un contraste de interacción edad×sexo×diagnóstico definido antes de examinar efectos y condicionado a sitios/covariables observados, ¿cuándo el soporte del diseño y la especificación de la media permiten estimación precisa, y cuándo los intervalos después de armonizar presentan cobertura distinta de su nivel nominal, incluso cuando sus estimaciones puntuales coinciden con una referencia de una etapa?
 
@@ -104,10 +104,10 @@ Escala: **1 muy bajo; 2 bajo; 3 medio; 4 alto; 5 muy alto**. Fórmula: `0,50 × 
 
 | Versión | Factibilidad 50% | Publicabilidad 30% | Innovación 20% | Ponderado | Decisión |
 |---|---:|---:|---:|---:|---|
-| P5 genérico: proteger interacción y comparar resultados empíricos | 3 | 2 | 2 | 2,50/5 | **No pasa**: réplica/riesgo de circularidad; sin verdad empírica ni QC suficiente para descubrir biología |
-| P5-R: elegibilidad y calibración condicionadas al diseño, con los cambios exigidos | 4 | 3 | 3 | 3,50/5 | **Pasa a propuesta**, con puertas de piloto y veto definidos abajo |
+| planteamiento inicial: proteger interacción y comparar resultados empíricos | 3 | 2 | 2 | 2,50/5 | **No pasa**: réplica/riesgo de circularidad; sin verdad empírica ni QC suficiente para descubrir biología |
+| Propuesta revisada: elegibilidad y calibración condicionadas al diseño, con los cambios exigidos | 4 | 3 | 3 | 3,50/5 | **Pasa a propuesta**, con puertas de piloto y veto definidos abajo |
 
-**Factibilidad 4 — alta para P5-R:** campos, participantes y archivos son reales y accesibles; no precisa neuroimágenes crudas ni cuenta nueva. La matriz es pequeña. La carga dominante de bootstrap anidado, rango/condicionamiento y versión funcional del software siguen sin medirse. La puntuación se refiere al benchmark acotado; la biología confirmatoria tendría factibilidad menor. Riesgo fatal para ese componente: exigir QC de superficie inexistente o curvas sustentadas en celdas sin información. La revisión evita hacerlo obligatorio para el núcleo.
+**Factibilidad 4 — alta para la propuesta revisada:** campos, participantes y archivos son reales y accesibles; no precisa neuroimágenes crudas ni cuenta nueva. La matriz es pequeña. La carga dominante de bootstrap anidado, rango/condicionamiento y versión funcional del software siguen sin medirse. La puntuación se refiere al benchmark acotado; la biología confirmatoria tendría factibilidad menor. Riesgo fatal para ese componente: exigir QC de superficie inexistente o curvas sustentadas en celdas sin información. La revisión evita hacerlo obligatorio para el núcleo.
 
 **Publicabilidad 3 — media:** pregunta inferencial útil, comparadores pertinentes y posibilidad de resultado negativo informativo. Sus vecinos ya cubren piezas sustanciales y no existe evidencia de que el benchmark producirá una conclusión nueva. Riesgo fatal: solo reproducir un mecanismo conocido o mostrar una identidad como superioridad; falta de calibración/generadores alternativos; diferencias demasiado imprecisas para guiar una decisión. M1–M4/M9 eliminan esos errores de diseño, pero el piloto puede demostrar que no queda contribución suficiente.
 
@@ -139,4 +139,4 @@ No se prescribe una cantidad universal de réplicas bootstrap: su resolución de
 - Entregar matriz de escenarios con verdad generada, tabla de contrastes/objetivos, control algebraico, reporte de fallos y resultados con error Monte Carlo; el equipo debe poder repetirlos desde el manifest.
 - La respuesta a revisión debe mapear M1–M9/G1–G9 a decisiones concretas del protocolo, y marcar lo que sigue pendiente; no afirmar que redactar una regla equivale a validarla.
 
-**Recomendación final del comité:** elaborar únicamente P5-R bajo las condiciones anteriores. Rechazar la formulación genérica y cualquier propuesta que convierta diferencias empíricas en pérdida biológica conocida. La incertidumbre decisiva es si la relación soporte → calibración aporta una decisión más allá de los competidores; la resuelven la inspección dirigida pendiente y un piloto autorizado con controles, no una media ponderada favorable.
+**Recomendación final del comité:** elaborar únicamente la propuesta revisada bajo las condiciones anteriores. Rechazar la formulación genérica y cualquier propuesta que convierta diferencias empíricas en pérdida biológica conocida. La incertidumbre decisiva es si la relación soporte → calibración aporta una decisión más allá de los competidores; la resuelven la inspección dirigida pendiente y un piloto autorizado con controles, no una media ponderada favorable.

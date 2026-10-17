@@ -1,4 +1,4 @@
-"""Download public ABIDE data and optional P5 evidence; no account is used."""
+"""Download public ABIDE data and optional literature evidence; no account is used."""
 
 import argparse
 import csv
@@ -66,7 +66,7 @@ def run_jobs(jobs, workers):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--mode", choices=["metadata", "abide-ants", "abide-freesurfer", "p5-evidence"],
+    parser.add_argument("--mode", choices=["metadata", "abide-ants", "abide-freesurfer", "literature-evidence"],
                         required=True)
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--limit", type=int, help="Limit participants, for a pilot only")
@@ -86,7 +86,7 @@ def main():
             ("http://fcon_1000.projects.nitrc.org/indi/abide/ABIDEII_Data_Legend.pdf",
              "data/sources/ABIDEII_Data_Legend.pdf"),
         ]
-    elif args.mode == "p5-evidence":
+    elif args.mode == "literature-evidence":
         source = "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10412957/"
         jobs = [(source + "fullTextXML", "data/sources/Reynolds2023_fulltext.xml"),
                 (source + "supplementaryFiles", "data/sources/Reynolds2023_supplement.zip")]

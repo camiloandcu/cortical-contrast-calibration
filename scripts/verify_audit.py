@@ -79,7 +79,7 @@ def main():
         "local_markdown_links_checked": checked,
         "local_markdown_links_valid": not broken,
         "research_models_fitted": False,
-        "scope": "P5 / ABIDE only",
+        "scope": "Cortical contrast calibration / ABIDE I",
         "errors": errors,
     }
     (ROOT / "data/derived/verification_summary.json").write_text(

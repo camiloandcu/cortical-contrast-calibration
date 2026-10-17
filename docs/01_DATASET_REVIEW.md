@@ -1,6 +1,6 @@
-# P5: revisión verificable de los datos
+# Revisión verificable de los datos
 
-Comprobado: 2026-10-11. Destinatarios: las tres personas que decidirán si P5 puede ejecutarse. Este documento describe archivos y variables; el comité evalúa la contribución en [su revisión](review/02_PEER_REVIEW.md) y el diseño se presenta en [la propuesta refinada](03_REFINED_P5_PROPOSAL.md).
+Comprobado: 2026-10-11. Destinatarios: las tres personas que decidirán si esta propuesta puede ejecutarse. Este documento describe archivos y variables; el comité evalúa la contribución en [su revisión](review/02_PEER_REVIEW.md) y el diseño se presenta en [la propuesta refinada](03_REFINED_PROPOSAL.md).
 
 **Conclusión:** ABIDE I permite estudiar la recuperación de interacciones bajo un diseño multicéntrico real y desbalanceado. Los datos no permiten atribuir diferencias entre armonizaciones a biología verdadera, inferir poda sináptica ni establecer trayectorias longitudinales. La escasez de participantes femeninas con autismo limita las interacciones con edad.
 
@@ -67,7 +67,7 @@ Todos los nombres y porcentajes están en [el inventario](04_COLUMN_INVENTORY.md
 | `NumVert` | Número de vértices |
 | `SurfArea` | Área superficial, mm² |
 | `GrayVol` | Volumen de sustancia gris, mm³ |
-| `ThickAvg` | Grosor medio, mm; resultado de P5 |
+| `ThickAvg` | Grosor medio, mm; resultado de esta propuesta |
 | `ThickStd` | Desviación dentro de la región, mm; no error estándar entre participantes |
 | `MeanCurv` | Curvatura media |
 | `GausCurv` | Curvatura gaussiana |

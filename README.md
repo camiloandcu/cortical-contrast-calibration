@@ -1,4 +1,4 @@
-# Neuroco 2026-2 — P5-R
+# Calibración de contrastes corticales
 
 Investigación metodológica sobre **cuándo puede estimarse una interacción
 edad × sexo × diagnóstico y cuándo sus intervalos están calibrados después
@@ -14,7 +14,7 @@ sin horas garantizadas ni presupuesto de cómputo de pago.
 ## Empezar a colaborar
 
 1. Leer el [índice de evidencia](docs/00_INDEX.md) y la
-   [propuesta científica](docs/03_REFINED_P5_PROPOSAL.md).
+   [propuesta científica](docs/03_REFINED_PROPOSAL.md).
 2. Revisar [acuerdos y decisiones pendientes](docs/05_TEAM_DECISIONS.md) y el
    [plan operativo científico](docs/06_SCIENTIFIC_DEVELOPMENT_PLAN.md).
 3. Seguir la [guía de colaboración](docs/07_COLLABORATION_GUIDE.md).
@@ -59,13 +59,13 @@ incluir también las copias de evidencia:
 ```bash
 python3 scripts/download_datasets.py --mode metadata
 python3 scripts/download_datasets.py --mode abide-freesurfer --workers 8
-python3 scripts/download_datasets.py --mode p5-evidence
+python3 scripts/download_datasets.py --mode literature-evidence
 python3 scripts/profile_datasets.py
 python3 literature/audit_design_coverage.py
 python3 scripts/verify_audit.py
 ```
 
-Se reutilizan archivos existentes. `p5-evidence` es opcional para explorar el
+Se reutilizan archivos existentes. `literature-evidence` es opcional para explorar el
 dataset, pero necesario para verificar el manifiesto completo de referencia.
 Las fuentes originales ocupaban unos 58,62 MB; reservar espacio para derivados.
 Los hashes locales no equivalen a firmas del proveedor y las fuentes remotas
