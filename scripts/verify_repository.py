@@ -12,6 +12,10 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_DATA = {"data/README.md", "data/download_manifest.csv"}
 REQUIRED = {
     ".gitignore", "AGENTS.md", "README.md", *PUBLIC_DATA,
+    "openspec/config.yaml", "openspec/README.md", ".agents/rules/project.md",
+    ".agents/skills/.openspec-target",
+    ".agents/skills/openspec-propose/SKILL.md",
+    ".agents/workflows/opsx-propose.md",
     "docs/00_INDEX.md", "docs/03_REFINED_PROPOSAL.md",
     "docs/05_TEAM_DECISIONS.md", "docs/06_SCIENTIFIC_DEVELOPMENT_PLAN.md",
     "docs/07_COLLABORATION_GUIDE.md", "scripts/verify_repository.py",
@@ -47,6 +51,23 @@ def check_links(root, paths):
     return checked, errors
 
 
+def public_agent_file(path):
+    """Allow only the reviewed OpenSpec integrations, not personal agent state."""
+    skills = {
+        "openspec-propose", "openspec-explore", "openspec-apply-change",
+        "openspec-update-change", "openspec-sync-specs", "openspec-archive-change",
+    }
+    workflows = {f"opsx-{name}.md" for name in
+                 ("propose", "explore", "apply", "update", "sync", "archive")}
+    parts = path.parts
+    return (parts == (".agents", "rules", "project.md")
+            or parts == (".agents", "skills", ".openspec-target")
+            or len(parts) == 4 and parts[:2] == (".agents", "skills")
+            and parts[2] in skills and parts[3] == "SKILL.md"
+            or len(parts) == 3 and parts[:2] == (".agents", "workflows")
+            and parts[2] in workflows)
+
+
 def main():
     try:
         relative = tracked_files()
@@ -59,7 +80,8 @@ def main():
         name = path.as_posix()
         parts = path.parts
         if (parts[0] == "data" and name not in PUBLIC_DATA
-                or parts[0] in {".aws", ".agents", ".codex", ".venv", "outputs", "results", "checkpoints"}
+                or parts[0] == ".agents" and not public_agent_file(path)
+                or parts[0] in {".aws", ".codex", ".venv", "node_modules", "outputs", "results", "checkpoints"}
                 or "__pycache__" in parts or ".ipynb_checkpoints" in parts
                 or path.name.startswith(".env")
                 or path.suffix in {".pyc", ".pem", ".key", ".part"}):

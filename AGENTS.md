@@ -38,6 +38,23 @@ support, scenario splits and seeds before inspecting effects. Keep 68 regions
 in EB harmonization. Mark verified facts, inference and unknowns; never guarantee
 novelty, calibration, power or publication. Do not invent results or approvals.
 
+## Work items with OpenSpec
+
+When asked to start a work item, read `openspec/README.md`, identify the item
+in `docs/06_SCIENTIFIC_DEVELOPMENT_PLAN.md` and check actual approvals in
+`docs/05_TEAM_DECISIONS.md`. Generate one proposal using `openspec-propose`;
+reuse an existing matching change rather than duplicating it. If the item is
+too broad, propose one bounded outcome and show remaining coverage for review.
+Use the globally installed CLI via `openspec <command>`.
+See README.md for Windows/Linux installation if the CLI is absent.
+Create proposal, design, spec deltas and tasks under `openspec/changes/<name>/`.
+Present the artifacts, open decisions and validation evidence, then STOP.
+Do not implement on a request to start an item. Wait for explicit human approval
+of the presented scope; scientific execution also requires the joint G1 gate.
+CLI readiness and generated approval fields cannot establish authorization.
+Codex and Antigravity share versioned OpenSpec skills under `.agents/skills/`;
+Antigravity also has `.agents/workflows/opsx-*.md`. Personal setup is unnecessary.
+
 ## Repository workflow
 
 - Read only the context needed for the current task and its approval state.
