@@ -99,3 +99,9 @@ se registra en la PR. No se probó la interfaz de los editores ni una instalaci�
 Windows; la detección de habilidades requiere abrir/reiniciar el workspace.
 Pendiente: revisión humana de esta configuración y las aprobaciones científicas
 ya indicadas. Aceptación, sync/archive y merge no se ejecutan automáticamente.
+
+Entrega del setup: commit `faf2b18`, rama subida y
+[PR #1 lista para revisión](https://github.com/camiloandcu/cortical-contrast-calibration/pull/1).
+Repositorio y clon limpio: 48 archivos, 90 enlaces locales, cero errores;
+CLI global reconoce contexto y cambios sin dependencias npm locales. Allowlist
+verificada con rutas permitidas y casos negativos. No se modificó `main`.
