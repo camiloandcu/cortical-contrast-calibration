@@ -78,3 +78,24 @@ Reversión posible: hacerlo privado o eliminarlo, sin retirar copias ajenas.
 No reintentar bajo otra forma para eludir el guard. Pendiente: resolver el
 bloqueo del entorno; la autorización del usuario ya está recibida. `main` no se
 crea ni actualiza sin autorización explícita.
+
+## Flujo de propuestas OpenSpec
+
+2026-10-23: Camilo aprobó preparar el repositorio para Codex y Antigravity.
+Después precisó usar OpenSpec global y documentar instalación inicial en Windows
+y Linux; reutilizar una instalación existente. Esto autoriza el setup de agentes,
+no G1 ni ejecución científica. Rama: `setup/openspec-agents`.
+
+Implementado: contexto y reglas por artefacto, habilidades/workflows versionados,
+regla de Antigravity, guía portable y allowlist estricta de archivos de agentes
+en la verificación. Una petición de iniciar SD1–SD8 genera una propuesta para
+revisión; no ejecuta el item. No hay dependencia npm local ni work item científico
+iniciado. Las integraciones fueron generadas con 1.14.3 y el flujo CLI comprobado
+con OpenSpec global 1.6.0, sin reinstalarlo.
+
+Evidencia: prueba temporal de los cuatro artefactos, carga de reglas del proyecto
+y validación estricta correctas. La verificación del repositorio y del clon limpio
+se registra en la PR. No se probó la interfaz de los editores ni una instalación
+Windows; la detección de habilidades requiere abrir/reiniciar el workspace.
+Pendiente: revisión humana de esta configuración y las aprobaciones científicas
+ya indicadas. Aceptación, sync/archive y merge no se ejecutan automáticamente.

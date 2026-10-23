@@ -1,5 +1,15 @@
 # Personal configuration and credentials
-.agents/
+/.agents/*
+!/.agents/skills/
+!/.agents/workflows/
+!/.agents/rules/
+/.agents/rules/*
+!/.agents/rules/project.md
+/.agents/skills/*
+!/.agents/skills/openspec-*/
+!/.agents/skills/.openspec-target
+/.agents/workflows/*
+!/.agents/workflows/opsx-*.md
 .codex/
 .aws/
 .env
@@ -26,3 +36,6 @@ venv/
 /results/
 /checkpoints/
 *.part
+
+# Local OpenSpec CLI dependencies
+/node_modules/

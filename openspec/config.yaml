@@ -1,0 +1,43 @@
+schema: spec-driven
+
+context: |
+  Read AGENTS.md and openspec/README.md before planning or execution.
+  Reply in the user's language; use English file names and agent instructions.
+  Scientific artifacts and human review documents may be written in Spanish.
+  docs/05_TEAM_DECISIONS.md owns approvals; docs/06_SCIENTIFIC_DEVELOPMENT_PLAN.md
+  owns scientific work items and dependencies. Read the relevant source sections.
+  One executable work item per change; preserve SD1-SD8 identifiers.
+  Starting a work item authorizes proposal generation only. Stop for human review.
+  Research implementation, fitted models, calibration and simulations require G1
+  and explicit execution-plan approval by all three investigators. Never infer votes.
+  Retain the scientific constraints in AGENTS.md and docs/03_REFINED_PROPOSAL.md.
+  Generated artifacts, CLI validation and apply-ready status are not human approval.
+  Do not publish participant data, sources, credentials or notebook outputs.
+
+rules:
+  proposal:
+    - Identify work-item ID/type, consumer, outcome, source paths and source commit.
+    - State scope, exclusions, dependencies, assumptions and blocking decisions.
+    - Include numbered AC-1 style acceptance criteria and inspectable evidence.
+    - State review status as pending unless explicit human approval is evidenced.
+    - Link scientific decisions to authoritative documents rather than duplicating them.
+  design:
+    - Cover affected contracts, data provenance, failure/recovery and compatibility.
+    - Separate verified facts, assumptions and proposed decisions; mark UI not applicable when appropriate.
+    - Always create design.md for this project, including documentation-only changes.
+  specs:
+    - Use normative requirements and Given/When/Then scenarios required by the schema.
+    - Trace requirements to proposal acceptance criteria; do not invent scientific results.
+  tasks:
+    - Map each task to acceptance IDs and planned verification evidence.
+    - Separate implementation checks, human scientific acceptance, sync/archive and merge gates.
+    - Keep tasks unchecked until actually completed; list unresolved approval gates explicitly.
+
+operations:
+  apply:
+    guidance:
+      - Read actual human approval evidence before editing; artifacts alone confer no approval.
+      - Stop research execution if G1 or joint execution approval is missing.
+  archive:
+    guidance:
+      - Require explicit human acceptance and authorization for spec sync and archive.

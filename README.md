@@ -25,6 +25,61 @@ El repositorio es público para lectura y clonación. La escritura requiere
 invitación como colaborador o un fork y pull request. Las tres personas revisan
 las decisiones científicas en conjunto; cada tarea tiene un ejecutor temporal.
 
+## Paso 0: preparar OpenSpec para Codex o Antigravity
+
+Si ya tienes OpenSpec, comprueba `openspec --version` y continúa con el clon.
+No hace falta reinstalarlo. Las auditorías Python no requieren OpenSpec ni Node.js.
+Para instalar desde cero, preparar Node.js >=20.19.0 y el CLI global:
+
+### Windows (PowerShell)
+
+Instalar Node.js LTS con el [instalador oficial](https://nodejs.org/en/download)
+o con Windows Package Manager:
+
+```powershell
+winget install OpenJS.NodeJS.LTS
+```
+
+Cerrar y abrir PowerShell para actualizar PATH. Luego:
+
+```powershell
+node --version
+npm.cmd --version
+npm.cmd install -g @fission-ai/openspec@1.6.0
+openspec.cmd --version
+```
+
+Usar `.cmd` evita restricciones de scripts PowerShell. Reiniciar también el
+editor para que el agente herede el PATH.
+
+### Linux (Bash)
+
+Instalar Node.js LTS con el [método oficial para su distribución](https://nodejs.org/en/download).
+Preferir un gestor de versiones en el espacio del usuario para instalar paquetes
+globales sin permisos de administrador. Abrir una terminal nueva:
+
+```bash
+node --version
+npm --version
+npm install -g @fission-ai/openspec@1.6.0
+openspec --version
+```
+
+Si npm devuelve `EACCES`, seguir la [guía oficial de npm](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally).
+
+### Abrir el clon
+
+Abrir la raíz del repositorio en Codex o Antigravity y reiniciar el agente/editor.
+Las integraciones ya están versionadas: no ejecutar `npm install` ni
+`openspec init` dentro del clon. Comprobar `openspec list --json`; en PowerShell
+se puede usar `openspec.cmd`. Pedir al agente:
+
+> Inicia el work item SD1 y prepara la propuesta para revisión humana.
+
+El agente genera alcance, diseño, requisitos y tareas y se detiene antes de
+implementar. Consultar la [guía de OpenSpec](openspec/README.md) para comandos,
+validación y aprobación conjunta de decisiones científicas.
+
 ## Qué contiene
 
 - `docs/`: protocolo, revisión científica, datos, decisiones y plan de trabajo.
